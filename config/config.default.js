@@ -51,7 +51,7 @@ module.exports = appInfo => {
   config.sequelize = {
     dialect: 'mysql',
     host: 'localhost',
-    port: 32769,
+    port: 3306,
     database: 'vote',
     username: 'root',
     password: '123456',
@@ -63,7 +63,7 @@ module.exports = appInfo => {
 
   config.redis = {
     client: {
-      port: 32768,
+      port: 6379,
       host: 'localhost',
       password: '',
       db: 0,
